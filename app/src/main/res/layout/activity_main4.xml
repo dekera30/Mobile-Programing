@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2B6974"
+    tools:context=".Main4Activity"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/senin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Senin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/senin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Hari senin saya mengerjakan tugas kantor dan tugas kampus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/selasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Selasa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/selasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Hari selasa saya mengerjakan tugas kantor dan tugas kampus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/rabu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Rabu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/rabu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Hari rabu saya mengerjakan tugas kantor dan tugas kampus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/kamis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Kamis"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/kamis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Hari kamis saya mengerjakan tugas kantor dan tugas kampus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/jumat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Jumat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/jumat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Hari jumat saya mengerjakan tugas kantor dan tugas kampus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/sabtu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="S abtu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/sabtu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Hari sabtu saya mengerjakan tugas kantor dan tugas kampus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFF" />
+
+    <Button
+
+        android:id="@+id/btnkeluar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button_yellow"
+        android:text="Keluar"
+        android:onClick="btnkeluar"/>
+
+</LinearLayout>
